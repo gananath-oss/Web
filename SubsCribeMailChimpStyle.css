@@ -1,0 +1,43 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title{
+  padding: 200px 0 180px 0;
+}
+
+hr {
+  color: #F83309;
+  border-width: 2px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+
+h1 {
+  color: white;
+}
+
+.defaultButton {
+  color: white;
+  background-color: #F83309;
+  border: 1px solid #F83309;
+  padding: 12px 50px;
+  border-radius: 20px;
+  transition: 1 s;
+  text-align: center;
+}
+
+.defaultButton:hover {
+  color: #F83309;
+  background-color: white;
+  /* border: 1px solid #F83309; */
+}
